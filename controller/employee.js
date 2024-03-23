@@ -1,7 +1,7 @@
 const EmployeeController = {
   async addEmployee(req, res) {
     try {
-      res.render("index");
+      res.render("company/index");
     } catch (error) {}
   },
 };
